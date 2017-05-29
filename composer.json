@@ -1,0 +1,20 @@
+{
+    "name": "carlosreig/ci3-controllers-renamer",
+    "description": "Script to rename the controllers to the CI 3.* style",
+    "type": "library",
+    "require": {
+        "symfony/finder": "^3.2",
+        "symfony/console": "^3.2"
+    },
+    "authors": [
+        {
+            "name": "Carlos Reig Matut",
+            "email": "unstatu@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
